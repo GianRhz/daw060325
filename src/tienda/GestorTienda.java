@@ -1,6 +1,7 @@
 package tienda;
 
 public class GestorTienda {
+	int pri;
     
     public double calcularDescuento(double precio, int cantidadComprada) {
         if (cantidadComprada >= 10) {
